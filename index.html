@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gem Gambler </title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+    <h1>Gem Gambler</h1>
+
+    <div id="goalNum"></div>
+    <div id="myNum"></div>
+    <div id="buttons"></div>
+    <div id="score">
+        <div id="wins">Wins: 0</div>
+        <div id="losses">Losses: 0</div>
+    </div>
+    <div id="message"></div>
+    <div onclick=" isFinished ? init() : null">
+<button id="newGame">New Game</button>
+    </div>
+</div>
+    <script src="./javascript/game.js"></script>
+</body>
+
+</html>

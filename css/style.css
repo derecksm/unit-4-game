@@ -1,0 +1,66 @@
+body{
+    background-image: url(../images/diamonds.png);
+}
+.container {
+    display: grid;
+    justify-items: center;
+    font-family: 'Crete Round', serif;
+    background-color:rgba(255, 255, 255, 0.55);
+    height: 650px;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, purple 0%, blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+#goalNum, #myNum {
+    font-size: 40px;
+    background: linear-gradient(to right,purple 0%, blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.numBtn {
+    height: 50px;
+    width: 70px;
+    margin: 25px;
+    background-image: linear-gradient( purple 0%, blue 100%);
+    opacity: .75;
+}
+.numBtn:hover{
+    background-image: red;
+    opacity: 1;
+    height: 60px;
+    width: 80px;
+    transition:.5s ;
+    -webkit-transition:.5s ;
+    -moz-transition:.5s ;
+    -ms-transition:.5s ;
+    -o-transition:.5s ;
+}
+#wins, #losses {
+font-size: 30px;
+background: linear-gradient(to right, purple 0%, blue 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#newGame {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+}
+#message {
+    color: red;
+    font-size: 25px;
+}
